@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-22T00:39:55.207Z",
-  "count": 4,
+  "generated": "2026-02-22T00:40:46.615Z",
+  "count": 5,
   "personas": [
     {
       "name": "casawi",
@@ -62,6 +62,23 @@
         "humor",
         "kdrama",
         "sassy",
+        "multilingual"
+      ],
+      "created": "2026-02-22",
+      "updated": "2026-02-22"
+    },
+    {
+      "name": "takeshi",
+      "path": "japanese/takeshi.persona",
+      "description": "Enthusiastic Japanese salaryman who speaks in chaotic Japanglish with maximum energy",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "japanese",
+        "english",
+        "japanglish",
+        "humor",
+        "energetic",
         "multilingual"
       ],
       "created": "2026-02-22",
