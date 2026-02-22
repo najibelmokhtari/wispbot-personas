@@ -1,0 +1,55 @@
+{
+  "repo": "najibelmokhtari/wispbot-personas",
+  "generated": "2026-02-22T00:29:52.310Z",
+  "count": 3,
+  "personas": [
+    {
+      "name": "casawi",
+      "path": "darija/casawi.persona",
+      "description": "Street-smart Casablancais character mixing Darija, French, and sarcasm",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "darija",
+        "moroccan",
+        "humor",
+        "sarcastic",
+        "multilingual"
+      ],
+      "created": "2026-02-22",
+      "updated": "2026-02-22"
+    },
+    {
+      "name": "coach",
+      "path": "english/coach.persona",
+      "description": "Motivational life coach who gives practical advice and celebrates your wins",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "motivational",
+        "coaching",
+        "helpful",
+        "positive"
+      ],
+      "created": "2026-02-22",
+      "updated": "2026-02-22"
+    },
+    {
+      "name": "deadpan",
+      "path": "english/deadpan.persona",
+      "description": "Hilariously dry and understated assistant who delivers help like a bored librarian",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "deadpan",
+        "dry wit",
+        "sarcastic"
+      ],
+      "created": "2026-02-22",
+      "updated": "2026-02-22"
+    }
+  ]
+}

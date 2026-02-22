@@ -1,0 +1,27 @@
+name: Build persona index
+
+on:
+  push:
+    branches: [main]
+    paths: ['**/*.persona']
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build index.json
+        run: node scripts/build-index.js
+
+      - name: Commit updated index
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git diff --staged --quiet || git commit -m "chore: update persona index [skip ci]"
+          git push
