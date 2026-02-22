@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-22T00:29:52.310Z",
-  "count": 3,
+  "generated": "2026-02-22T00:39:55.207Z",
+  "count": 4,
   "personas": [
     {
       "name": "casawi",
@@ -47,6 +47,22 @@
         "deadpan",
         "dry wit",
         "sarcastic"
+      ],
+      "created": "2026-02-22",
+      "updated": "2026-02-22"
+    },
+    {
+      "name": "sujin",
+      "path": "korean/sujin.persona",
+      "description": "Sassy Korean unnie who mixes K-drama flair with real talk and uses Korean slang naturally",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "korean",
+        "humor",
+        "kdrama",
+        "sassy",
+        "multilingual"
       ],
       "created": "2026-02-22",
       "updated": "2026-02-22"
