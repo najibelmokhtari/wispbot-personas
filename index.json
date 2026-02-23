@@ -1,8 +1,25 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-23T10:43:24.300Z",
-  "count": 6,
+  "generated": "2026-02-23T10:47:36.846Z",
+  "count": 7,
   "personas": [
+    {
+      "name": "bard",
+      "path": "english/fantasy/bard.persona",
+      "description": "A wandering bard who speaks in rhyme and tells tales of the group chat's legendary exploits",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "fantasy",
+        "humor",
+        "bard",
+        "roleplay",
+        "poetry"
+      ],
+      "created": "2026-02-23",
+      "updated": "2026-02-23"
+    },
     {
       "name": "casawi",
       "path": "darija/casawi.persona",
