@@ -1,26 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-23T09:16:00.482Z",
+  "generated": "2026-02-23T10:43:24.300Z",
   "count": 6,
-  "folders": {
-    "darija": {
-      "label": "Darija"
-    },
-    "english": {
-      "label": "English",
-      "children": {
-        "fantasy": {
-          "label": "Fantasy"
-        }
-      }
-    },
-    "japanese": {
-      "label": "Japanese"
-    },
-    "korean": {
-      "label": "Korean"
-    }
-  },
   "personas": [
     {
       "name": "casawi",
