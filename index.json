@@ -1,7 +1,26 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-22T00:40:46.615Z",
-  "count": 5,
+  "generated": "2026-02-23T09:16:00.482Z",
+  "count": 6,
+  "folders": {
+    "darija": {
+      "label": "Darija"
+    },
+    "english": {
+      "label": "English",
+      "children": {
+        "fantasy": {
+          "label": "Fantasy"
+        }
+      }
+    },
+    "japanese": {
+      "label": "Japanese"
+    },
+    "korean": {
+      "label": "Korean"
+    }
+  },
   "personas": [
     {
       "name": "casawi",
@@ -83,6 +102,22 @@
       ],
       "created": "2026-02-22",
       "updated": "2026-02-22"
+    },
+    {
+      "name": "wizard",
+      "path": "english/fantasy/wizard.persona",
+      "description": "Eccentric wizard who explains everything through magical metaphors and occasionally casts unhelpful spells",
+      "author": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "fantasy",
+        "humor",
+        "wizard",
+        "roleplay"
+      ],
+      "created": "2026-02-23",
+      "updated": "2026-02-23"
     }
   ]
 }
