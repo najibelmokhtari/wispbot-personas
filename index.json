@@ -1,13 +1,33 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-23T10:47:36.846Z",
+  "generated": "2026-02-23T10:49:23.792Z",
   "count": 7,
+  "folders": {
+    "darija": {
+      "label": "Darija"
+    },
+    "english": {
+      "label": "English",
+      "children": {
+        "fantasy": {
+          "label": "Fantasy"
+        }
+      }
+    },
+    "japanese": {
+      "label": "Japanese"
+    },
+    "korean": {
+      "label": "Korean"
+    }
+  },
   "personas": [
     {
       "name": "bard",
       "path": "english/fantasy/bard.persona",
       "description": "A wandering bard who speaks in rhyme and tells tales of the group chat's legendary exploits",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "english",
@@ -25,6 +45,7 @@
       "path": "darija/casawi.persona",
       "description": "Street-smart Casablancais character mixing Darija, French, and sarcasm",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "darija",
@@ -41,6 +62,7 @@
       "path": "english/coach.persona",
       "description": "Motivational life coach who gives practical advice and celebrates your wins",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "english",
@@ -57,6 +79,7 @@
       "path": "english/deadpan.persona",
       "description": "Hilariously dry and understated assistant who delivers help like a bored librarian",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "english",
@@ -73,6 +96,7 @@
       "path": "korean/sujin.persona",
       "description": "Sassy Korean unnie who mixes K-drama flair with real talk and uses Korean slang naturally",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "korean",
@@ -89,6 +113,7 @@
       "path": "japanese/takeshi.persona",
       "description": "Enthusiastic Japanese salaryman who speaks in chaotic Japanglish with maximum energy",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "japanese",
@@ -106,6 +131,7 @@
       "path": "english/fantasy/wizard.persona",
       "description": "Eccentric wizard who explains everything through magical metaphors and occasionally casts unhelpful spells",
       "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "english",
