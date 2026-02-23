@@ -9,6 +9,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 const META_LINE_REGEX = /^(\w+)\s*=\s*(.*)$/;
@@ -67,6 +68,61 @@ function findPersonaFiles(dir, relativeBase = '') {
     return results;
 }
 
+function buildFolderTree(dir, relativeBase = '') {
+    const tree = {};
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+    for (const entry of entries) {
+        if (!entry.isDirectory() || SKIP_DIRS.has(entry.name)) continue;
+        const fullPath = path.join(dir, entry.name);
+        const relPath = relativeBase ? path.join(relativeBase, entry.name) : entry.name;
+
+        // Read optional folder metadata
+        const metaPath = path.join(fullPath, '.folder-meta.json');
+        let meta = {};
+        if (fs.existsSync(metaPath)) {
+            try { meta = JSON.parse(fs.readFileSync(metaPath, 'utf8')); } catch (e) { /* ignore */ }
+        }
+
+        const label = meta.label || entry.name.charAt(0).toUpperCase() + entry.name.slice(1);
+        const node = { label };
+        if (meta.description) node.description = meta.description;
+
+        // Recurse into subdirectories
+        const children = buildFolderTree(fullPath, relPath);
+        if (Object.keys(children).length > 0) {
+            node.children = children;
+        }
+
+        tree[entry.name] = node;
+    }
+
+    return tree;
+}
+
+/**
+ * Get the GitHub username of whoever first added a file, using git log.
+ * Tries to extract from GitHub noreply email, falls back to git author name.
+ */
+function getContributor(relativePath) {
+    try {
+        const raw = execSync(
+            `git log --format="%aN|%aE" --reverse --follow -- "${relativePath}"`,
+            { cwd: ROOT, encoding: 'utf8', timeout: 5000 }
+        ).trim();
+        const firstLine = raw.split('\n')[0];
+        if (!firstLine) return '';
+        const [name, email] = firstLine.split('|');
+        // GitHub noreply emails: username@users.noreply.github.com
+        // or: 12345678+username@users.noreply.github.com
+        const ghMatch = email?.match(/^(?:\d+\+)?(.+)@users\.noreply\.github\.com$/);
+        if (ghMatch) return ghMatch[1];
+        return name || '';
+    } catch {
+        return '';
+    }
+}
+
 // Main
 const files = findPersonaFiles(ROOT);
 const personas = [];
@@ -80,6 +136,7 @@ for (const file of files) {
         path: file.relativePath,
         description: meta.description || '',
         author: meta.author || '',
+        contributor: getContributor(file.relativePath),
         version: meta.version || '1.0',
         tags: meta.tags || [],
         created: meta.created || '',
@@ -90,10 +147,13 @@ for (const file of files) {
 // Sort by name
 personas.sort((a, b) => a.name.localeCompare(b.name));
 
+const folders = buildFolderTree(ROOT);
+
 const index = {
     repo: 'najibelmokhtari/wispbot-personas',
     generated: new Date().toISOString(),
     count: personas.length,
+    folders,
     personas
 };
 
