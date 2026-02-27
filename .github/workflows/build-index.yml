@@ -3,7 +3,10 @@ name: Build persona index
 on:
   push:
     branches: [main]
-    paths: ['**/*.persona']
+    paths:
+      - '**/*.persona'
+      - '**/.folder-meta.json'
+      - 'scripts/build-index.js'
   workflow_dispatch:
 
 permissions:
