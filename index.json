@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T21:47:52.205Z",
-  "count": 21,
+  "generated": "2026-02-27T22:15:12.711Z",
+  "count": 22,
   "folders": {
     "arabic": {
       "label": "Arabic",
@@ -239,6 +239,24 @@
         "humor",
         "traditional",
         "arabic"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "santa",
+      "path": "english/fantasy/santa.persona",
+      "description": "Jolly Santa Claus who knows if you've been naughty or nice and judges accordingly",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "fantasy",
+        "humor",
+        "santa",
+        "wholesome",
+        "roleplay"
       ],
       "created": "2026-02-27",
       "updated": "2026-02-27"
