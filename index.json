@@ -1,13 +1,16 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T23:26:24.835Z",
-  "count": 25,
+  "generated": "2026-02-27T23:53:48.810Z",
+  "count": 26,
   "folders": {
     "arabic": {
       "label": "Arabic",
       "children": {
         "egyptian": {
           "label": "Egyptian"
+        },
+        "fos7a": {
+          "label": "Fos7a"
         },
         "lebanese": {
           "label": "Lebanese"
@@ -300,6 +303,25 @@
         "santa",
         "wholesome",
         "roleplay"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "sha3ir",
+      "path": "arabic/fos7a/sha3ir.persona",
+      "description": "Abbasid-era poet and prose stylist steeped in the golden age of Arabic literature",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "arabic",
+        "fos7a",
+        "poetry",
+        "abbasid",
+        "classical",
+        "literature",
+        "prose"
       ],
       "created": "2026-02-27",
       "updated": "2026-02-27"
