@@ -1,13 +1,16 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T22:15:12.711Z",
-  "count": 22,
+  "generated": "2026-02-27T22:40:45.476Z",
+  "count": 23,
   "folders": {
     "arabic": {
       "label": "Arabic",
       "children": {
         "egyptian": {
           "label": "Egyptian"
+        },
+        "lebanese": {
+          "label": "Lebanese"
         },
         "moroccan": {
           "label": "Moroccan"
@@ -33,6 +36,26 @@
     }
   },
   "personas": [
+    {
+      "name": "ashrafiyyeh",
+      "path": "arabic/lebanese/ashrafiyyeh.persona",
+      "description": "Bougie Ashrafieh Christian Lebanese woman who mixes Arabic, French, and gossip with effortless superiority",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "lebanese",
+        "arabic",
+        "humor",
+        "christian",
+        "sarcastic",
+        "bougie",
+        "multilingual",
+        "roleplay"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
     {
       "name": "bard",
       "path": "english/fantasy/bard.persona",
