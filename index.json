@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T22:40:45.476Z",
-  "count": 23,
+  "generated": "2026-02-27T23:15:08.355Z",
+  "count": 24,
   "folders": {
     "arabic": {
       "label": "Arabic",
@@ -59,10 +59,10 @@
     {
       "name": "bard",
       "path": "english/fantasy/bard.persona",
-      "description": "A wandering bard who speaks in rhyme and tells tales of the group chat's legendary exploits",
+      "description": "Wandering bard who chronicles the group chat like an epic saga and has a suspiciously familiar songbook",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "fantasy",
@@ -72,15 +72,15 @@
         "poetry"
       ],
       "created": "2026-02-23",
-      "updated": "2026-02-23"
+      "updated": "2026-02-27"
     },
     {
       "name": "barista",
       "path": "english/internet_culture/barista.persona",
-      "description": "Overworked service industry survivor running on caffeine and passive-aggressive cheer",
+      "description": "Overworked service industry survivor running on caffeine, spite, and the unhinged solidarity of people who've worked retail",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -95,10 +95,10 @@
     {
       "name": "boomer",
       "path": "english/internet_culture/boomer.persona",
-      "description": "Lovably out-of-touch elder who accidentally drops wisdom between tech confusion",
+      "description": "Lovably out-of-touch elder who types in ellipses, signs every message, and accidentally drops devastating wisdom",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -129,10 +129,10 @@
     {
       "name": "cat",
       "path": "english/internet_culture/cat.persona",
-      "description": "Just a cat. Judges you. Occasionally helps but acts like it's beneath them",
+      "description": "An actual cat with WhatsApp access who judges you, occasionally helps, and demands food at inappropriate moments",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -147,27 +147,28 @@
     {
       "name": "coach",
       "path": "english/coach.persona",
-      "description": "Motivational life coach who gives practical advice and celebrates your wins",
+      "description": "Reformed mess turned relentlessly positive life coach who treats every win like it's Olympic gold",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "motivational",
         "coaching",
         "helpful",
-        "positive"
+        "positive",
+        "humor"
       ],
       "created": "2026-02-22",
-      "updated": "2026-02-22"
+      "updated": "2026-02-27"
     },
     {
       "name": "conspiracy_guy",
       "path": "english/internet_culture/conspiracy_guy.persona",
-      "description": "Connects dots that don't exist in the most entertaining way possible",
+      "description": "Connects dots that don't exist, has a mysterious \"they,\" and wraps genuinely good advice in forbidden knowledge packaging",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -181,10 +182,10 @@
     {
       "name": "deadpan",
       "path": "english/deadpan.persona",
-      "description": "Hilariously dry and understated assistant who delivers help like a bored librarian",
+      "description": "Devastatingly dry observer who delivers help with the enthusiasm of someone reading a parking ticket",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -193,15 +194,15 @@
         "sarcastic"
       ],
       "created": "2026-02-22",
-      "updated": "2026-02-22"
+      "updated": "2026-02-27"
     },
     {
       "name": "grandma",
       "path": "english/internet_culture/grandma.persona",
-      "description": "Aggressively loving grandmother who drops savage one-liners without realizing",
+      "description": "Aggressively loving grandmother who weaponizes wholesomeness and drops savage one-liners without realizing",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -216,10 +217,10 @@
     {
       "name": "gym_bro",
       "path": "english/internet_culture/gym_bro.persona",
-      "description": "Everything in life is about gains, discipline, and pushing through",
+      "description": "Everything in life is about gains, discipline, and pushing through — the world's most supportive fitness philosopher",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -232,12 +233,31 @@
       "updated": "2026-02-27"
     },
     {
-      "name": "noir_detective",
-      "path": "english/internet_culture/noir_detective.persona",
-      "description": "Hard-boiled detective who treats every conversation like a case file",
+      "name": "mad_physicist",
+      "path": "english/internet_culture/mad_physicist.persona",
+      "description": "Unhinged physicist who sees quantum mechanics in everything, has beef with engineers, and explains love using thermodynamics",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
       "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "science",
+        "physics",
+        "nerdy",
+        "unhinged",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "noir_detective",
+      "path": "english/internet_culture/noir_detective.persona",
+      "description": "Hard-boiled detective trapped in a WhatsApp group, treating every message like a case file in a city that never sleeps",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.1",
       "tags": [
         "english",
         "roleplay",
@@ -269,10 +289,10 @@
     {
       "name": "santa",
       "path": "english/fantasy/santa.persona",
-      "description": "Jolly Santa Claus who knows if you've been naughty or nice and judges accordingly",
+      "description": "Jolly Santa Claus who weaponizes the naughty list, has cookie opinions, and is suspiciously omniscient",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "fantasy",
@@ -287,10 +307,10 @@
     {
       "name": "shitposter",
       "path": "english/internet_culture/shitposter.persona",
-      "description": "Chaotic internet gremlin who is somehow still helpful under 3 layers of irony",
+      "description": "Chaotic internet gremlin who is somehow still helpful under 3 layers of irony and zero punctuation",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -305,10 +325,10 @@
     {
       "name": "stoner_philo",
       "path": "english/internet_culture/stoner_philo.persona",
-      "description": "Accidentally profound philosopher running on vibes and snacks",
+      "description": "Accidentally profound philosopher who stumbles into genuine wisdom while talking about burritos and ceiling fans",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -323,10 +343,10 @@
     {
       "name": "sujin",
       "path": "korean/sujin.persona",
-      "description": "Sassy Korean unnie who mixes K-drama flair with real talk and uses Korean slang naturally",
+      "description": "Sassy Korean unnie who weaponizes K-drama wisdom, skincare routines, and brutal honesty wrapped in aegyo",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "korean",
         "humor",
@@ -335,15 +355,15 @@
         "multilingual"
       ],
       "created": "2026-02-22",
-      "updated": "2026-02-22"
+      "updated": "2026-02-27"
     },
     {
       "name": "takeshi",
       "path": "japanese/takeshi.persona",
-      "description": "Enthusiastic Japanese salaryman who speaks in chaotic Japanglish with maximum energy",
+      "description": "Overworked Japanese salaryman who weaponizes Japanglish, izakaya wisdom, and corporate suffering into chaotic helpfulness",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "japanese",
         "english",
@@ -353,15 +373,15 @@
         "multilingual"
       ],
       "created": "2026-02-22",
-      "updated": "2026-02-22"
+      "updated": "2026-02-27"
     },
     {
       "name": "true_crime",
       "path": "english/internet_culture/true_crime.persona",
-      "description": "True crime podcaster who builds suspense around the most mundane things",
+      "description": "True crime podcaster who treats every group chat conversation like an unsolved case with 47 episodes of backstory",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -376,10 +396,10 @@
     {
       "name": "tsundere",
       "path": "english/internet_culture/tsundere.persona",
-      "description": "Reluctant helper who definitely does NOT care about you or anything (but obviously does)",
+      "description": "Reluctant helper who is EXTREMELY competent, definitely does NOT care about you, and will die on this hill (while helping you anyway)",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
@@ -394,10 +414,10 @@
     {
       "name": "wiki_nerd",
       "path": "english/internet_culture/wiki_nerd.persona",
-      "description": "Walking Wikipedia who treats every topic like it has deep interconnected lore",
+      "description": "Walking Wikipedia who treats every topic like it has deep interconnected lore and says \"actually\" more than any human should",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "informative",
@@ -412,10 +432,10 @@
     {
       "name": "wizard",
       "path": "english/fantasy/wizard.persona",
-      "description": "Eccentric wizard who explains everything through magical metaphors and occasionally casts unhelpful spells",
+      "description": "Absent-minded wizard who's been alive too long, confuses centuries, and frames everything as arcane knowledge",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "fantasy",
@@ -424,15 +444,15 @@
         "roleplay"
       ],
       "created": "2026-02-23",
-      "updated": "2026-02-23"
+      "updated": "2026-02-27"
     },
     {
       "name": "zoomer",
       "path": "english/internet_culture/zoomer.persona",
-      "description": "Chronically online Gen Z who communicates in brain rot but is secretly sharp",
+      "description": "Chronically online Gen Z who communicates in brain rot but is secretly the sharpest person in the room",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
-      "version": "1.0",
+      "version": "1.1",
       "tags": [
         "english",
         "humor",
