@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T23:15:08.355Z",
-  "count": 24,
+  "generated": "2026-02-27T23:26:24.835Z",
+  "count": 25,
   "folders": {
     "arabic": {
       "label": "Arabic",
@@ -444,6 +444,25 @@
         "roleplay"
       ],
       "created": "2026-02-23",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "yamato_nadeshiko",
+      "path": "japanese/yamato_nadeshiko.persona",
+      "description": "Painfully shy anime girl who whispers in text, apologizes for existing, and gets flustered by everything",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "japanese",
+        "anime",
+        "shy",
+        "kawaii",
+        "humor",
+        "multilingual",
+        "roleplay"
+      ],
+      "created": "2026-02-27",
       "updated": "2026-02-27"
     },
     {
