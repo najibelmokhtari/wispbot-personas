@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-23T10:49:23.792Z",
-  "count": 7,
+  "generated": "2026-02-27T17:42:20.291Z",
+  "count": 20,
   "folders": {
     "darija": {
       "label": "Darija"
@@ -13,6 +13,9 @@
           "label": "Fantasy"
         }
       }
+    },
+    "internet_culture": {
+      "label": "Internet_culture"
     },
     "japanese": {
       "label": "Japanese"
@@ -41,6 +44,41 @@
       "updated": "2026-02-23"
     },
     {
+      "name": "barista",
+      "path": "internet_culture/barista.persona",
+      "description": "Overworked service industry survivor running on caffeine and passive-aggressive cheer",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "coffee",
+        "sarcastic",
+        "relatable",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "boomer",
+      "path": "internet_culture/boomer.persona",
+      "description": "Lovably out-of-touch elder who accidentally drops wisdom between tech confusion",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "boomer",
+        "wholesome",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
       "name": "casawi",
       "path": "darija/casawi.persona",
       "description": "Street-smart Casablancais character mixing Darija, French, and sarcasm",
@@ -56,6 +94,24 @@
       ],
       "created": "2026-02-22",
       "updated": "2026-02-22"
+    },
+    {
+      "name": "cat",
+      "path": "internet_culture/cat.persona",
+      "description": "Just a cat. Judges you. Occasionally helps but acts like it's beneath them",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "cat",
+        "minimal",
+        "sassy",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
     },
     {
       "name": "coach",
@@ -75,6 +131,23 @@
       "updated": "2026-02-22"
     },
     {
+      "name": "conspiracy_guy",
+      "path": "internet_culture/conspiracy_guy.persona",
+      "description": "Connects dots that don't exist in the most entertaining way possible",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "conspiracy",
+        "paranoid",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
       "name": "deadpan",
       "path": "english/deadpan.persona",
       "description": "Hilariously dry and understated assistant who delivers help like a bored librarian",
@@ -90,6 +163,96 @@
       ],
       "created": "2026-02-22",
       "updated": "2026-02-22"
+    },
+    {
+      "name": "grandma",
+      "path": "internet_culture/grandma.persona",
+      "description": "Aggressively loving grandmother who drops savage one-liners without realizing",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "wholesome",
+        "savage",
+        "grandma",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "gym_bro",
+      "path": "internet_culture/gym_bro.persona",
+      "description": "Everything in life is about gains, discipline, and pushing through",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "fitness",
+        "motivational",
+        "gym",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "noir_detective",
+      "path": "internet_culture/noir_detective.persona",
+      "description": "Hard-boiled detective who treats every conversation like a case file",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "roleplay",
+        "noir",
+        "detective",
+        "dramatic",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "shitposter",
+      "path": "internet_culture/shitposter.persona",
+      "description": "Chaotic internet gremlin who is somehow still helpful under 3 layers of irony",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "chaotic",
+        "internet culture",
+        "memes",
+        "shitpost"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "stoner_philo",
+      "path": "internet_culture/stoner_philo.persona",
+      "description": "Accidentally profound philosopher running on vibes and snacks",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "philosophical",
+        "chill",
+        "vibes",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
     },
     {
       "name": "sujin",
@@ -127,6 +290,60 @@
       "updated": "2026-02-22"
     },
     {
+      "name": "true_crime",
+      "path": "internet_culture/true_crime.persona",
+      "description": "True crime podcaster who builds suspense around the most mundane things",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "true crime",
+        "dramatic",
+        "podcast",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "tsundere",
+      "path": "internet_culture/tsundere.persona",
+      "description": "Reluctant helper who definitely does NOT care about you or anything (but obviously does)",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "anime",
+        "tsundere",
+        "internet culture",
+        "roleplay"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "wiki_nerd",
+      "path": "internet_culture/wiki_nerd.persona",
+      "description": "Walking Wikipedia who treats every topic like it has deep interconnected lore",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "informative",
+        "nerdy",
+        "lore",
+        "trivia",
+        "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
       "name": "wizard",
       "path": "english/fantasy/wizard.persona",
       "description": "Eccentric wizard who explains everything through magical metaphors and occasionally casts unhelpful spells",
@@ -142,6 +359,24 @@
       ],
       "created": "2026-02-23",
       "updated": "2026-02-23"
+    },
+    {
+      "name": "zoomer",
+      "path": "internet_culture/zoomer.persona",
+      "description": "Chronically online Gen Z who communicates in brain rot but is secretly sharp",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "humor",
+        "gen z",
+        "slang",
+        "internet culture",
+        "chaotic"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
     }
   ]
 }
