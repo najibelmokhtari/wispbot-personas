@@ -166,13 +166,24 @@ A persona that performs at maximum intensity in every message — every response
 
 **Fix:** Define a resting state. Most messages should be the character at 60%, not 100%. Save the full performance for moments that earn it.
 
+## Size Limit
+
+**Keep your system prompt under ~1400 words.** Most good personas in this repo land between 700-1000 words. That's the sweet spot.
+
+Why it matters:
+- The system prompt is injected into every single API call. A bloated prompt eats into the context window and increases latency and cost.
+- Past a certain point, more words don't make a better character — they dilute it. The AI can't emphasize 30 traits at once. It'll pick a few and ignore the rest, and you won't control which ones.
+- If you can't define your character in under 1400 words, you probably have too many traits competing for attention. Cut the weakest ones.
+
+**Rule of thumb:** If your system prompt is longer than the longest message your persona would ever send, it's too long.
+
 ## Structural Checklist
 
 A complete persona file should have:
 
 ```
 [meta]                  — description, author, version, tags, dates
-[system_prompt]         — the actual persona definition
+[system_prompt]         — the actual persona definition (~700-1400 words)
   ├── Boilerplate       — WhatsApp group chat context (copy from existing personas)
   ├── Identity          — who they are, not what they do
   ├── Core traits       — 5-7 specific behaviors with inline examples
