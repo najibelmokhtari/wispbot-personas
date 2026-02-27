@@ -37,11 +37,15 @@ updated = YYYY-MM-DD
 
 ### 4. Write the system prompt
 
-The `[system_prompt]` section defines the bot's personality. Tips:
+The `[system_prompt]` section defines the bot's personality. See **[CRAFTING_GUIDE.md](CRAFTING_GUIDE.md)** for a detailed breakdown of what makes a persona great — covering identity, contradictions, specific language, cultural grounding, and example vibes.
+
+Quick tips:
 - Be specific about personality traits, language, and tone
 - Include example responses to show the vibe
 - Specify which languages the persona speaks
 - Define how the persona handles roasting/banter vs. serious questions
+- Give the persona contradictions — they make characters feel real
+- Always include 4-5 "example vibes" showing concrete interaction examples
 
 ### 5. Optional: voice and TTS
 
