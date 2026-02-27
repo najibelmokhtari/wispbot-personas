@@ -1,21 +1,29 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T17:42:20.291Z",
-  "count": 20,
+  "generated": "2026-02-27T21:47:52.205Z",
+  "count": 21,
   "folders": {
-    "darija": {
-      "label": "Darija"
+    "arabic": {
+      "label": "Arabic",
+      "children": {
+        "egyptian": {
+          "label": "Egyptian"
+        },
+        "moroccan": {
+          "label": "Moroccan"
+        }
+      }
     },
     "english": {
       "label": "English",
       "children": {
         "fantasy": {
           "label": "Fantasy"
+        },
+        "internet_culture": {
+          "label": "Internet_culture"
         }
       }
-    },
-    "internet_culture": {
-      "label": "Internet_culture"
     },
     "japanese": {
       "label": "Japanese"
@@ -45,7 +53,7 @@
     },
     {
       "name": "barista",
-      "path": "internet_culture/barista.persona",
+      "path": "english/internet_culture/barista.persona",
       "description": "Overworked service industry survivor running on caffeine and passive-aggressive cheer",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -63,7 +71,7 @@
     },
     {
       "name": "boomer",
-      "path": "internet_culture/boomer.persona",
+      "path": "english/internet_culture/boomer.persona",
       "description": "Lovably out-of-touch elder who accidentally drops wisdom between tech confusion",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -80,7 +88,7 @@
     },
     {
       "name": "casawi",
-      "path": "darija/casawi.persona",
+      "path": "arabic/moroccan/casawi.persona",
       "description": "Street-smart Casablancais character mixing Darija, French, and sarcasm",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -97,7 +105,7 @@
     },
     {
       "name": "cat",
-      "path": "internet_culture/cat.persona",
+      "path": "english/internet_culture/cat.persona",
       "description": "Just a cat. Judges you. Occasionally helps but acts like it's beneath them",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -132,7 +140,7 @@
     },
     {
       "name": "conspiracy_guy",
-      "path": "internet_culture/conspiracy_guy.persona",
+      "path": "english/internet_culture/conspiracy_guy.persona",
       "description": "Connects dots that don't exist in the most entertaining way possible",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -166,7 +174,7 @@
     },
     {
       "name": "grandma",
-      "path": "internet_culture/grandma.persona",
+      "path": "english/internet_culture/grandma.persona",
       "description": "Aggressively loving grandmother who drops savage one-liners without realizing",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -184,7 +192,7 @@
     },
     {
       "name": "gym_bro",
-      "path": "internet_culture/gym_bro.persona",
+      "path": "english/internet_culture/gym_bro.persona",
       "description": "Everything in life is about gains, discipline, and pushing through",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -202,7 +210,7 @@
     },
     {
       "name": "noir_detective",
-      "path": "internet_culture/noir_detective.persona",
+      "path": "english/internet_culture/noir_detective.persona",
       "description": "Hard-boiled detective who treats every conversation like a case file",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -219,8 +227,25 @@
       "updated": "2026-02-27"
     },
     {
+      "name": "sa3idi",
+      "path": "arabic/egyptian/sa3idi.persona",
+      "description": "Proud Upper Egyptian with old-school values, fiery temper, and a heart of gold",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "egyptian",
+        "sa3idi",
+        "humor",
+        "traditional",
+        "arabic"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
       "name": "shitposter",
-      "path": "internet_culture/shitposter.persona",
+      "path": "english/internet_culture/shitposter.persona",
       "description": "Chaotic internet gremlin who is somehow still helpful under 3 layers of irony",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -238,7 +263,7 @@
     },
     {
       "name": "stoner_philo",
-      "path": "internet_culture/stoner_philo.persona",
+      "path": "english/internet_culture/stoner_philo.persona",
       "description": "Accidentally profound philosopher running on vibes and snacks",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -291,7 +316,7 @@
     },
     {
       "name": "true_crime",
-      "path": "internet_culture/true_crime.persona",
+      "path": "english/internet_culture/true_crime.persona",
       "description": "True crime podcaster who builds suspense around the most mundane things",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -309,7 +334,7 @@
     },
     {
       "name": "tsundere",
-      "path": "internet_culture/tsundere.persona",
+      "path": "english/internet_culture/tsundere.persona",
       "description": "Reluctant helper who definitely does NOT care about you or anything (but obviously does)",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -327,7 +352,7 @@
     },
     {
       "name": "wiki_nerd",
-      "path": "internet_culture/wiki_nerd.persona",
+      "path": "english/internet_culture/wiki_nerd.persona",
       "description": "Walking Wikipedia who treats every topic like it has deep interconnected lore",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
@@ -362,7 +387,7 @@
     },
     {
       "name": "zoomer",
-      "path": "internet_culture/zoomer.persona",
+      "path": "english/internet_culture/zoomer.persona",
       "description": "Chronically online Gen Z who communicates in brain rot but is secretly sharp",
       "author": "najibelmokhtari",
       "contributor": "najibelmokhtari",
