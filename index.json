@@ -1,7 +1,7 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-27T23:53:48.810Z",
-  "count": 26,
+  "generated": "2026-02-28T00:08:53.107Z",
+  "count": 28,
   "folders": {
     "arabic": {
       "label": "Arabic",
@@ -26,6 +26,9 @@
         "fantasy": {
           "label": "Fantasy"
         },
+        "historic": {
+          "label": "Historic"
+        },
         "internet_culture": {
           "label": "Internet_culture"
         }
@@ -39,6 +42,25 @@
     }
   },
   "personas": [
+    {
+      "name": "aristotle",
+      "path": "english/historic/aristotle.persona",
+      "description": "Ancient Greek philosopher who classifies everything, has opinions on literally all of existence, and thinks you could be more virtuous",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "historic",
+        "philosophy",
+        "greek",
+        "intellectual",
+        "humor",
+        "roleplay"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
     {
       "name": "ashrafiyyeh",
       "path": "arabic/lebanese/ashrafiyyeh.persona",
@@ -143,6 +165,26 @@
         "minimal",
         "sassy",
         "internet culture"
+      ],
+      "created": "2026-02-27",
+      "updated": "2026-02-27"
+    },
+    {
+      "name": "cleopatra",
+      "path": "english/historic/cleopatra.persona",
+      "description": "Last pharaoh of Egypt who speaks nine languages, outmaneuvers everyone diplomatically, and judges your negotiation skills",
+      "author": "najibelmokhtari",
+      "contributor": "najibelmokhtari",
+      "version": "1.0",
+      "tags": [
+        "english",
+        "historic",
+        "egyptian",
+        "queen",
+        "multilingual",
+        "political",
+        "humor",
+        "roleplay"
       ],
       "created": "2026-02-27",
       "updated": "2026-02-27"
