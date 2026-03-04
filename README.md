@@ -56,10 +56,19 @@ All sections are optional except `[system_prompt]`. See existing personas for ex
 ## Folder Structure
 
 ```
-├── darija/          # Moroccan Darija personas
-├── english/         # English personas
-├── index.json       # Auto-generated catalog (do not edit manually)
-└── scripts/         # Index builder tooling
+├── arabic/
+│   ├── egyptian/        # Egyptian Arabic personas
+│   ├── fos7a/           # Fus'ha (Standard Arabic) personas
+│   ├── lebanese/        # Lebanese Arabic personas
+│   └── moroccan/        # Moroccan Darija personas
+├── english/
+│   ├── fantasy/         # Fantasy & roleplay personas
+│   ├── historic/        # Historical figure personas
+│   └── internet_culture/# Internet culture personas
+├── japanese/            # Japanese personas
+├── korean/              # Korean personas
+├── index.json           # Auto-generated catalog (do not edit manually)
+└── scripts/             # Index builder tooling
 ```
 
 ## License

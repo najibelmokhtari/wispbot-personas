@@ -1,6 +1,6 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-02-28T00:08:53.107Z",
+  "generated": "2026-03-04T00:15:01.490Z",
   "count": 28,
   "folders": {
     "arabic": {
@@ -10,7 +10,7 @@
           "label": "Egyptian"
         },
         "fos7a": {
-          "label": "Fos7a"
+          "label": "Fus'ha (Standard Arabic)"
         },
         "lebanese": {
           "label": "Lebanese"
@@ -30,7 +30,7 @@
           "label": "Historic"
         },
         "internet_culture": {
-          "label": "Internet_culture"
+          "label": "Internet Culture"
         }
       }
     },

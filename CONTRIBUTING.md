@@ -6,9 +6,14 @@ Thanks for contributing! Here's how to add your persona to the collection.
 
 ### 1. Choose a folder
 
-Place your `.persona` file in the appropriate language folder:
-- `english/` — English personas
-- `darija/` — Moroccan Darija personas
+Place your `.persona` file in the appropriate language/dialect folder:
+- `arabic/moroccan/` — Moroccan Darija personas
+- `arabic/egyptian/` — Egyptian Arabic personas
+- `arabic/lebanese/` — Lebanese Arabic personas
+- `arabic/fos7a/` — Standard Arabic (Fus'ha) personas
+- `english/` — English personas (with subfolders: `fantasy/`, `historic/`, `internet_culture/`)
+- `japanese/` — Japanese personas
+- `korean/` — Korean personas
 - Create a new folder if your language isn't listed
 
 ### 2. Name your file
