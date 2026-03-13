@@ -1,6 +1,6 @@
 {
   "repo": "najibelmokhtari/wispbot-personas",
-  "generated": "2026-03-13T22:28:51.233Z",
+  "generated": "2026-03-13T22:29:04.090Z",
   "count": 29,
   "folders": {
     "arabic": {
@@ -447,7 +447,7 @@
       "path": "utility/transcriber.persona",
       "description": "Faithful multilingual transcriber that preserves code-switching using each language's native script",
       "author": "najibelmokhtari",
-      "contributor": "",
+      "contributor": "najibelmokhtari",
       "version": "1.0",
       "tags": [
         "utility",
